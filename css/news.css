@@ -1,0 +1,45 @@
+@import "index.css";
+
+.btn{color:#fff;}
+.btn:link{color:#fff;}
+.btn:visited{color:#fff;}
+.btn:hover{color:#fff;}
+.btn:active{color:#fff;}
+
+article{
+    display: flex;
+    flex-direction: column;
+}
+
+.post-btn{
+    width:8rem;
+    align-self:center;
+    background-color: rgba(89, 104, 105, 0.8);
+}
+
+.post-btn:hover{background-color: rgba(89, 104, 105, 1);}
+
+.search-btn{
+    width:8rem;
+    background-color: rgba(89, 104, 105, 0.8);
+    margin-left: 1rem;
+}
+
+.search-btn:hover{background-color: rgba(89, 104, 105, 1);}
+
+#breadcrumb{color: rgba(89,104,105,0.8);}
+.search-bar>*{margin-top:2rem;}
+.search-bar h3{margin: 0;}
+.search-bar .col-sm-4{display: flex;}
+
+@media (max-width: 767px) {
+    .btn{font-size: 1.2rem;}
+    article h3{font-size:20px;}
+}
+
+@media (max-width: 480px) {
+    .btn{font-size: 1rem;}
+    article h3{font-size:18px;}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {.btn{font-size: 1.2rem;}}

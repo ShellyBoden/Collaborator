@@ -1,0 +1,132 @@
+@import "normalize.css";
+@import "global.css";
+
+main{
+    display: flex;
+    margin-top:1.5rem;
+    height: calc(85vh);
+}
+
+nav{
+    width: 16rem;
+    background-color: #fff;
+    border-radius:0.25rem;
+}
+
+nav ul{
+    height: calc(100% - 45%);
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 2rem 0 2rem 0;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+nav li{
+    width: 10rem;
+    padding: 0.5rem 0 0.5rem 0;
+    margin-bottom: 1rem;
+    border-radius:0.25rem;
+    background-color: rgba(89, 104, 105, 0.8);
+    color: #fff;
+}
+
+nav li:hover{background-color: rgba(89, 104, 105, 1);}
+nav .special-btn{background-color: rgba(104, 74, 82, 0.8);}
+nav .special-btn:hover{background-color: rgba(104, 74, 82, 1);}
+nav a{text-decoration:none !important;}
+
+article{
+    width: 100% !important;
+    border-radius:0.25rem;
+    background-color: #fff;
+    margin-left: 1.5rem;
+}
+
+.google-calendar{
+    margin-top: 2rem;
+    height: calc(100% / 7);
+    border:1px #515751 solid;
+    margin-bottom: 2rem;
+    border-radius:0.25rem;
+}
+
+table{
+    margin-top: 2rem;
+    border: 1px solid #515751;
+    text-align: center;
+}
+
+th{
+    background-color:#515751;
+    color:#fff;
+    text-align: center;
+}
+
+td{border: 1px solid #515751;}
+
+#dropdown-tag-menu{
+    width: 10rem;
+    background-color: rgba(255,255,255,0.5);
+    padding: 0.1rem;
+}
+
+#dropdown-tag-menu:hover{background-color: rgba(255,255,255,1);}
+.dropdown-menu{width: 10rem;}
+
+.dropdown-menu button{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgba(255,255,255,1);
+    border: none;
+    color: #36453B;
+    font-weight:normal;
+}
+
+.dropdown-menu button:hover{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius:0.25rem;
+    background-color: rgba(89, 104, 105, 0.8);
+    border: none;
+    color: #fff;
+    font-weight:normal;
+}
+
+@media (max-width: 767px) {
+    nav{width: 10rem;}
+    nav ul{font-size: 1.2rem;}
+    nav li{width: 6rem;}
+    #dropdown-tag-menu{width: 6rem; font-size:1rem;}
+    table{font-size:1rem;}
+    .dropdown-menu{font-size:1rem;}
+    .dropdown-menu button{margin: 0.5rem;}
+    .dropdown-menu button:hover{margin: 0.5rem;}
+    article > h3{font-size:20px;}
+}
+
+@media (max-width: 480px) {
+    nav{width: 8rem;}
+    nav ul{font-size: 1rem;}
+    nav li{width: 5rem;}
+    #dropdown-tag-menu{width: 4rem; font-size:0.8rem;}
+    table{font-size:0.8rem;}
+    .dropdown-menu{font-size:0.8rem;}
+    .dropdown-menu button{margin: 0.5rem;}
+    .dropdown-menu button:hover{margin: 0.5rem;}
+    article > h3{font-size:18px;}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    nav{width: 12rem;}
+    nav ul{font-size: 1.2rem;}
+    nav li{width: 8rem;}
+    table{font-size:1.2rem;}
+    .dropdown-menu{font-size:1.2rem;}
+    .dropdown-menu button{margin: 1rem;}
+    .dropdown-menu button:hover{margin: 1rem;}
+}

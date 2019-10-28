@@ -1,0 +1,155 @@
+@import "normalize.css";
+@import "global.css";
+
+header>.header-logo{
+    width:calc(174px);
+    height: calc(95px);
+}
+
+header>.header-title{
+    display: flex;
+    align-items: center;
+    width: calc(100% - 174px);
+    height: 95px;
+    padding-left: 2rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:2rem;
+}
+
+.content > .row{position: relative;}
+
+.content > * > *{
+    height: 30rem;
+    margin: 1rem;
+    background-color:#fff;
+    border-radius:0.25rem;
+    box-shadow: 2px 2px 3px 2px #515751;
+    padding: 0 2rem 2rem 2rem;
+}
+
+.content > * > * > *{
+    margin-bottom: 1.2rem;
+    padding: 0;
+    line-height: 3rem;
+}
+
+.information{width: 50rem;}
+
+.upload-photo{
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:3.5rem;
+}
+
+#photo{
+    width: 20rem;
+    height: 20rem;
+}
+
+.contact{
+    right:0;
+    width: 40rem;
+}
+
+.change-password{
+    width: 40rem;
+    left:0;
+}
+
+.change-password>*{margin-bottom: 3rem;}
+
+#regsiter-warning{
+    line-height: 2.5rem;
+    color:#E63462;
+}
+
+.btn{color:#fff;}
+.btn:link{color:#fff;}
+.btn:visited{color:#fff;}
+.btn:hover{color:#fff;}
+.btn:active{color:#fff;}
+
+.upload-photo-btn{margin-top:1rem;background-color: rgba(89, 104, 105, 0.8);}
+.upload-photo-btn:hover{background-color: rgba(89, 104, 105, 1);}
+
+.send-btn{
+    margin-top:1rem;
+    width:10rem;
+    background-color: rgba(54,69,59,0.8);
+    box-shadow: 2px 2px 3px 2px #515751;
+}
+
+.send-btn:hover{background-color: rgba(54,69,59,1);}
+
+@media (max-width: 767px) {
+    .content{margin-top:0rem;}
+    .content > * > *{
+        width:calc(100vw - 3rem);
+        height: auto;
+        padding-top:1.2rem;
+        margin-bottom: 0rem;
+    }
+    .content > * > * > *{
+        margin-bottom: 0rem;
+        padding: 0;
+        line-height: 3rem;
+    }
+    .upload-photo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top:3.5rem;
+    }
+    h3{margin-top: 0;}
+}
+
+/* @media (max-width: 480px) {
+    .content{background-color: teal;}
+} */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .information{
+        position: absolute;
+        width:40rem;
+        right:-8rem;
+    }
+    .upload-photo{
+        position: absolute;
+        width: 24rem;
+        left:8rem;
+    }
+    .contact{
+        position: absolute;
+        width: 32rem;
+        right:0;
+        top:32rem;
+    }
+    .change-password{
+        position: absolute;
+        width: 32rem;
+        left:0rem;
+        top:32rem;
+    }
+    .send-btn{
+        position: absolute;
+        top:77.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* @media (min-width: 992px) {
+    .content{background-color: wheat;}
+}
+@media (min-width: 1200px) {
+    .content{background-color: seagreen;}
+} */

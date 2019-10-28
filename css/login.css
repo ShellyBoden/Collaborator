@@ -1,0 +1,73 @@
+@import "normalize.css";
+@import "global.css";
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:2rem;
+    height: calc(100vh - 15rem);
+}
+
+.content>:nth-child(1){
+    width: 30rem;
+    height: 28rem;
+    background-color:#fff;
+    border-radius:0.25rem;
+    box-shadow: 2px 2px 3px 2px #515751;
+    padding: 0 2rem 0 2rem;
+}
+
+.card div{margin: 2rem 0 2rem 0;}
+
+.login-btn-group{
+    margin: 0 0 1rem 0;
+    display: flex;
+    justify-content:space-between;
+}
+
+.login-btn-group>:nth-child(1){
+    padding:0;
+    margin-right: 1rem;
+    width: 100%;
+}
+
+.login-btn-group>:nth-child(2){
+    padding:0;
+    width: 100%;
+}
+
+#login-warning{
+    line-height: 2.5rem;
+    color:#E63462;
+}
+
+/* ------------------------------------------------------按鈕------------------------------------------------------ */
+
+.btn{color:#fff;}
+.btn:link{color:#fff;}
+.btn:visited{color:#fff;}
+.btn:hover{color:#fff;}
+.btn:active{color:#fff;}
+
+
+.login-btn{background-color: rgba(89, 104, 105, 0.8);}
+.login-btn:hover{background-color: rgba(89, 104, 105, 1);}
+
+.forget-btn{background-color: rgba(104, 74, 82, 0.8);}
+.forget-btn:hover{background-color: rgba(104, 74, 82, 1);}
+
+
+/* ------------------------------------------------------按鈕------------------------------------------------------ */
+
+header>.header-logo{
+    width:calc(174px);
+    height: calc(95px);
+}
+header>.header-title{
+    display: flex;
+    align-items: center;
+    width: calc(100% - 174px);
+    height: 95px;
+    padding-left: 2rem;
+}
