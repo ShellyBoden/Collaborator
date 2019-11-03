@@ -14,7 +14,7 @@
     height: 28rem;
     background-color:#fff;
     border-radius:0.25rem;
-    box-shadow: 2px 2px 3px 2px #515751;
+    box-shadow: 2px 2px 3px 2px #21295C;
     padding: 0 2rem 0 2rem;
 }
 
@@ -39,7 +39,7 @@
 
 #login-warning{
     line-height: 2.5rem;
-    color:#E63462;
+    color:#DE6B48;
 }
 
 /* ------------------------------------------------------按鈕------------------------------------------------------ */
@@ -51,11 +51,11 @@
 .btn:active{color:#fff;}
 
 
-.login-btn{background-color: rgba(89, 104, 105, 0.8);}
-.login-btn:hover{background-color: rgba(89, 104, 105, 1);}
+.login-btn{background-color: #A4B494;}
+.login-btn:hover{background-color: rgb(137, 160, 113);}
 
-.forget-btn{background-color: rgba(104, 74, 82, 0.8);}
-.forget-btn:hover{background-color: rgba(104, 74, 82, 1);}
+.forget-btn{background-color: #DE6B48;}
+.forget-btn:hover{background-color: rgb(197, 81, 46);}
 
 
 /* ------------------------------------------------------按鈕------------------------------------------------------ */

@@ -1,10 +1,10 @@
 @import "index.css";
 
-.btn{color:#fff;}
+/* .btn{color:#fff;}
 .btn:link{color:#fff;}
 .btn:visited{color:#fff;}
 .btn:hover{color:#fff;}
-.btn:active{color:#fff;}
+.btn:active{color:#fff;} */
 
 article{
     display: flex;
@@ -14,20 +14,22 @@ article{
 .post-btn{
     width:8rem;
     align-self:center;
-    background-color: rgba(89, 104, 105, 0.8);
+    background-color: #A4B494;
+    color:#fff;
 }
 
-.post-btn:hover{background-color: rgba(89, 104, 105, 1);}
+.post-btn:hover{background-color: rgb(137, 160, 113);color:#fff;}
 
 .search-btn{
     width:8rem;
-    background-color: rgba(89, 104, 105, 0.8);
+    background-color: #A4B494;
+    color:#fff;
     margin-left: 1rem;
 }
 
-.search-btn:hover{background-color: rgba(89, 104, 105, 1);}
+.search-btn:hover{background-color: rgb(137, 160, 113);color:#fff;}
 
-#breadcrumb{color: rgba(89,104,105,0.8);}
+#breadcrumb{color: #EAD2AC;}
 .search-bar>*{margin-top:2rem;}
 .search-bar h3{margin: 0;}
 .search-bar .col-sm-4{display: flex;}

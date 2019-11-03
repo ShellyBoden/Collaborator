@@ -5,9 +5,9 @@
 }
 
 body{
-    background: #596869;
+    background: #465775;
     font-family: "微軟正黑體";
-    color: #36453B;
+    color:#21295C;
 }
 
 .container-fluid>.row{
@@ -64,8 +64,8 @@ header>.header-title{
     white-space:nowrap;
 }
 
-.logout-btn{background-color: rgba(89, 104, 105, 0.8);color:#fff;}
-.logout-btn:hover{background-color: rgba(89, 104, 105, 1);color:#fff;}
+.logout-btn{background-color: #A4B494;color:#fff;}
+.logout-btn:hover{background-color: rgb(137, 160, 113);color:#fff;}
 
 @media (max-width: 767px) {
     #title{font-size:20px;}

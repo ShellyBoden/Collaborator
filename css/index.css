@@ -29,15 +29,15 @@ nav ul{
 nav li{
     width: 10rem;
     padding: 0.5rem 0 0.5rem 0;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     border-radius:0.25rem;
-    background-color: rgba(89, 104, 105, 0.8);
+    background-color: #A4B494;
     color: #fff;
 }
 
-nav li:hover{background-color: rgba(89, 104, 105, 1);}
-nav .special-btn{background-color: rgba(104, 74, 82, 0.8);}
-nav .special-btn:hover{background-color: rgba(104, 74, 82, 1);}
+nav li:hover{background-color: rgb(137, 160, 113);}
+nav .special-btn{background-color: #DE6B48;}
+nav .special-btn:hover{background-color: rgb(197, 81, 46);}
 nav a{text-decoration:none !important;}
 
 article{
@@ -50,24 +50,24 @@ article{
 .google-calendar{
     margin-top: 2rem;
     height: calc(100% / 7);
-    border:1px #515751 solid;
+    border:1px #465775 solid;
     margin-bottom: 2rem;
     border-radius:0.25rem;
 }
 
 table{
     margin-top: 2rem;
-    border: 1px solid #515751;
+    border: 1px solid #465775;
     text-align: center;
 }
 
 th{
-    background-color:#515751;
+    background-color:#465775;
     color:#fff;
     text-align: center;
 }
 
-td{border: 1px solid #515751;}
+td{border: 1px solid #465775;}
 
 #dropdown-tag-menu{
     width: 10rem;
@@ -83,7 +83,7 @@ td{border: 1px solid #515751;}
     padding: 1rem;
     background-color: rgba(255,255,255,1);
     border: none;
-    color: #36453B;
+    color: #21295C;
     font-weight:normal;
 }
 
@@ -91,7 +91,7 @@ td{border: 1px solid #515751;}
     margin: 1rem;
     padding: 1rem;
     border-radius:0.25rem;
-    background-color: rgba(89, 104, 105, 0.8);
+    background-color: #465775;
     border: none;
     color: #fff;
     font-weight:normal;

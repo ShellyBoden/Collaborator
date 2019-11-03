@@ -29,7 +29,7 @@ header>.header-title{
     margin: 1rem;
     background-color:#fff;
     border-radius:0.25rem;
-    box-shadow: 2px 2px 3px 2px #515751;
+    box-shadow: 2px 2px 3px 2px #21295C;
     padding: 0 2rem 2rem 2rem;
 }
 
@@ -69,7 +69,7 @@ header>.header-title{
 
 #regsiter-warning{
     line-height: 2.5rem;
-    color:#E63462;
+    color:#DE6B48;
 }
 
 .btn{color:#fff;}
@@ -78,17 +78,17 @@ header>.header-title{
 .btn:hover{color:#fff;}
 .btn:active{color:#fff;}
 
-.upload-photo-btn{margin-top:1rem;background-color: rgba(89, 104, 105, 0.8);}
-.upload-photo-btn:hover{background-color: rgba(89, 104, 105, 1);}
+.upload-photo-btn{margin-top:1rem;background-color: #A4B494;}
+.upload-photo-btn:hover{background-color: rgb(137, 160, 113);}
 
 .send-btn{
     margin-top:1rem;
     width:10rem;
-    background-color: rgba(54,69,59,0.8);
-    box-shadow: 2px 2px 3px 2px #515751;
+    background-color: #A4B494;
+    box-shadow: 2px 2px 3px 2px #21295C;
 }
 
-.send-btn:hover{background-color: rgba(54,69,59,1);}
+.send-btn:hover{background-color: rgb(137, 160, 113);}
 
 @media (max-width: 767px) {
     .content{margin-top:0rem;}
