@@ -46,7 +46,7 @@ header>.header-title{
     display: flex;
     align-items: center !important;
     position: absolute;
-    top:7rem;
+    top:4.3rem;
     right:1rem;
 }
 
@@ -69,14 +69,30 @@ header>.header-title{
 
 @media (max-width: 767px) {
     #title{font-size:20px;}
-    .notifications-group{top:7.2rem;border:1px;}
+    /* .notifications-group{top:7.2rem;} */
     .notifications-group > *:not(:last-child){margin-right: 1.2rem;}
     .notifications-icon{width: 2rem;}
     #notifications-number{left:1.5rem;font-size: 1rem;}
     .logout-btn{font-size: 1.2rem;}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 661px) {
+    #title{font-size:20px;}
+    /* .notifications-group{top:7.2rem;} */
+    .notifications-group > *:not(:last-child){margin-right: 1.2rem;}
+    .notifications-icon{width: 2rem;}
+    #notifications-number{left:1.5rem;font-size: 1rem;}
+    .logout-btn{font-size: 1.2rem;}
+    header>.header-title{
+        display: flex;
+        align-items: center;
+        width: calc(100% - 350px);
+        height: 95px;
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 550px) {
     #title{font-size:18px;}
     .notifications-group{top:7.5rem;}
     .notifications-group > *:not(:last-child){margin-right: 0.5rem;}
@@ -98,7 +114,7 @@ header>.header-title{
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
-    .notifications-group{top:7.5rem;}
+    /* .notifications-group{top:7.5rem;} */
     .notifications-group > *:not(:last-child){margin-right: 1.5rem;}
     .notifications-icon{width: 2.5rem;}
     #notifications-number{left:2rem;font-size: 1.2rem;}
